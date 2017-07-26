@@ -1,2 +1,11 @@
-square :: Int -> Int
-square x = x * x
+addOne :: Integer -> Integer
+addOne x = x + 1
+
+rectArea :: Float -> Float -> Float
+rectArea l w = l * w
+
+pythagArea :: Float -> Float -> Float -> Float
+pythagArea a b c = sqrt(s * (s - a) * (s - b) * (s - c))
+  where
+    s = (a + b + c) / 2
+
