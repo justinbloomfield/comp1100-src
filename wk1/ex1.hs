@@ -5,7 +5,9 @@ rectArea :: Float -> Float -> Float
 rectArea l w = l * w
 
 pythagArea :: Float -> Float -> Float -> Float
-pythagArea a b c = sqrt(s * (s - a) * (s - b) * (s - c))
-  where
-    s = (a + b + c) / 2
+pythagArea a b c =
+    let s = (a + b + c) / 2
+        in sqrt(s * (s - a) * (s - b) * (s - c))
+ 
+  
 
